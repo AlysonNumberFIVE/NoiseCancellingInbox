@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream
 # NoiseCancellingInbox
 Summarize away your subscriptions and noisy emails into a helpful, witty, weekly newsletter.
 
