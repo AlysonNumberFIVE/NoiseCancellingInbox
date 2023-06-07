@@ -1,8 +1,12 @@
-<<<<<<< Updated upstream
-# NoiseCancellingInbox
-Summarize away your subscriptions and noisy emails into a helpful, witty, weekly newsletter.
 
-### The Only Newsletter you'll ever really need
+# NoiseCancellingInbox
+## Summarize away your subscriptions and noisy emails into a helpful, witty, weekly newsletter.
+
+<p align="center">
+  <img src="" width="200" height="200">
+</p>
+
+## The Only Newsletter you'll ever really need
 Are you tired of thousands of emails every week? Is your inbox super noisy? Well golly gee willickers, do I have the solution for you!
 Introducing noise cancelling headphones, **BUT FOR YOU INBOX**!
 
