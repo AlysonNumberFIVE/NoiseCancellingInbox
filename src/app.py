@@ -87,10 +87,8 @@ def index():
     # GPT that shit
     email = summarise_text(email_list)
 
-    # Prepare the banner
-    url = upload_file_to_s3(
-        os.environ.get("AWS_STORAGE_BUCKET")
-    )
+    # Prepare the banner / this can be set to https://github.com/AlysonNumberFIVE/NoiseCancellingInbox/blob/main/resources/noiselogo.png
+    url = os.environ.get("BANNER_LOCATION")
     
     # Extract that into the list of email summaries.
     email_objects = unpack_data(email)
