@@ -22,6 +22,7 @@ def remove_urls(text):
     :param: text: The text to scan for URLs.
     :return: The original text without any URLs in the body.
     """
+    
     url_pattern = re.compile(r'https?://\S+|www\.\S+')
     return url_pattern.sub(r'', text)
 
@@ -49,6 +50,7 @@ def last_monday():
     )
     return: Returns the exact date of last Monday night.
     """
+
     today = datetime.today()
     last_monday = today - timedelta(days=today.weekday() + 3)
     return last_monday.strftime('%Y/%m/%d')
@@ -72,12 +74,9 @@ def extract_image_urls(text):
     :param: text: The body of text to scan through.
     :return: All image URLs found.
     """
+
     url_regex = r'http[s]?://(?:[a-zA-Z]|[0-9]|[$-_@.&+]|[!*\\(\\),]|(?:%[0-9a-fA-F][0-9a-fA-F]))+'
-    
-    # Find matches in text
     urls = re.findall(url_regex, text)
-    print("IMAGE URL S================================ ", urls)
-    # Filter for image URLs
     image_urls = [url for url in urls if url.lower().endswith(('.png', '.jpg', '.jpeg', '.gif', '.bmp', '.webp'))]
     
     return image_urls
