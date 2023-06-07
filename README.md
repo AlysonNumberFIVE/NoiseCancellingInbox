@@ -3,7 +3,7 @@
 ## Summarize away your subscriptions and noisy emails into a helpful, witty, weekly newsletter.
 
 <p align="center">
-  <img src="" width="200" height="200">
+  <img src="https://github.com/AlysonNumberFIVE/NoiseCancellingInbox/blob/main/resources/noiselogo.png" width="500">
 </p>
 
 ## The Only Newsletter you'll ever really need
