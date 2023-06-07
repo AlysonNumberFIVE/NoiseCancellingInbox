@@ -106,8 +106,6 @@ def gmail():
             print("No new messages.")
         else:
             message_count = 0
-            print(len(messages))
-    
             for message in messages:
             
                 sender = 'Unknown'
